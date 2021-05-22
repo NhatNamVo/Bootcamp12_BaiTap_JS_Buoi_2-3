@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Bài tập về nhà</h1>
+    <div class="mission no1">
+        <h2>Bài 1: Tính tiền lương nhân viên</h2>
+        <p>Số ngày đi làm của nhân viên: <input type="text" id="dayWork" placeholder="số ngày lao động"></p>
+        <button onclick="staffSalary()">click</button>
+        <p>Lương của nhân viên: <span id="salary">0 VNĐ</span></p>
+    </div>
+    <div class="mission no2">
+        <h2>Bài 2: Tính trung bình của 5 số:</h2> 
+            <p>Nhập 5 số bất kỳ</p>
+            <p>số 1: <input type="text" id="no1" placeholder="số thứ 1"></p>
+            <p>số 2: <input type="text" id="no2" placeholder="số thứ 2"></p>
+            <p>số 3: <input type="text" id="no3" placeholder="số thứ 3"></p>
+            <p>số 4: <input type="text" id="no4" placeholder="số thứ 4"></p>
+            <p>số 5: <input type="text" id="no5" placeholder="số thứ 5"></p>
+                <button onclick="Average()">click</button>
+        
+        <p>Giá trị trung bình của 5 số: <span id="avarageNum"></span></p>
+    </div>
+    <div class="mission no3">
+        <h2>Bài 3: Quy đổi tiền:</h2> 
+            <p>Nhập số tiền cần quy đổi (Đơn vị: USD): <input type="text" id="usdID" placeholder="USD"></p>
+            <button onclick="transferMoney()">click</button>
+        <p>USA-->VNĐ: <span id="transferMoney">0 USD --> 0 VNĐ</span></p>
+    </div>
+    <div class="mission no4">
+        <h2>Bài 4: Tính diện tích- chu vi hình chữ nhật:</h2> 
+            <p>Nhập kích thước 2 cạnh của hình chữ nhật cần tính (đơn vị: mm)</p>
+            <p>Nhập kích thước chiều dài HCN: <input type="text" id="hcnLength" placeholder="(mm)"></p>
+            <p>Nhập kích thước chiều rộng HCN: <input type="text" id="hcnWidth" placeholder="(mm)"></p>
+            <button onclick="Area()">click</button>
+        <p>Diện tích của HCN (mm<sup>2</sup>): <span id="Area"></span></p>
+        <p>Chu vi HCN (mm): <span id="Perimeter"></span></p>
+    </div>
+    <div class="mission no5">
+        <h2>Bài 5: Tính 2 ký số của số có 2 chữ số</h2> 
+            <p>Nhập số có hai chữ số: <input type="text" id="num_Haikyso" placeholder="số 2 chữ số"></p>
+            <button onclick="SumXX()">click</button>
+        <p>Tổng của 2 ký số bạn nhập: <span id="sumResult"></span></p>
+    </div>
+    <script src="./js/homework.js"></script>
+</body>
+</html>
